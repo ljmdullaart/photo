@@ -1,0 +1,53 @@
+.header
+.h1 Photo (common part)
+
+There three directories for images:
+
+- 
+.fix thumb
+- 
+.fix medium
+- 
+.fix fullsize
+
+Thumbnail images are resized to fit in 300x300. Medium images are
+1000x1000 and fullsize images are not resized.
+A separate directory for HTML files is created.
+
+Whether
+.fix configyour
+will create the photo-rules is determined by the pressence of a 
+file 
+.fix imagelist
+in the current directory.
+For all images in
+.fix imagelist
+rules are created for creating the files under 
+.fix thumb, medium
+and
+.fix fullsize.
+
+The
+.fix imagelist
+consists of a list of filenames and a number of directives.
+
+	*directive*	*meaning*	*example*
+	DIR directory	Get the files from this directory	DIR /links/diaadm/bewerkt
+	TYPE gallerytype	Create gallery type	TYPE HTMLINDEX
+
+
+Gallery-types must provide their own
+configyour scripts. The photo configyour will provide an HTML header
+.fix header.htm
+that can be included.
+
+The photo configyour will provide an index.html, which is a copy of the first 
+gallery type in
+.fix imagelist
+and which will depend on all index files for the gallery types. These indexfiles
+must be called
+.fix index.gallerytype.html
+
+The result will be 
+.link htmlindex.html
+

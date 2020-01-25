@@ -1,0 +1,15 @@
+.header
+
+.h1 Photo websites
+
+The generation of photo websites is done by a set of scripts that
+are called via
+.fix configyour.
+Because all the website options have a comon need for images, the
+creation of the images in the directories is done separately.
+
+At the moment, the following options exist:
+
+	src directory	purpose
+	photo	Common part; generation of photos in different sizes.
+	photoswipe	A website that alows swiping on phones, but no pinch to zoom
