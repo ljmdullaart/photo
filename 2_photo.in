@@ -32,7 +32,7 @@ The
 consists of a list of filenames and a number of directives.
 
 	*directive*	*meaning*	*example*
-	DIR directory	Get the files from this directory	DIR /links/diaadm/bewerkt
+	DIR directory	directory for files	 DIR ~/Pictures
 	TYPE gallerytype	Create gallery type	TYPE HTMLINDEX
 
 

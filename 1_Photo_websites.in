@@ -13,3 +13,7 @@ At the moment, the following options exist:
 	src directory	purpose
 	photo	Common part; generation of photos in different sizes.
 	photoswipe	A website that alows swiping on phones, but no pinch to zoom
+	htmlindex	A simple HTML-table with thumbnails that give access to the full-size image
+	photozip	Allows the download of a tgz of the full-size images
+
+
