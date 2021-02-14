@@ -30,6 +30,7 @@ $banner photo >> Makefile
 # Check if applicable
 if [ ! -f imagelist ] ; then
 	echo "No imagelist" >>$LOG
+	echo "No imagelist"
 	not_applicable
 fi
 
